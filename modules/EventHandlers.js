@@ -1,3 +1,5 @@
+import { DateTime } from './luxon.js';
+
 const form = document.forms[0];
 const menuItems = document.querySelectorAll('.nav-link');
 const toggleSections = document.querySelectorAll('.content-area');
@@ -10,8 +12,8 @@ const showSection = (element) => {
 };
 
 const displayDate = () => {
-  const currentDate = new Date().toDateString();
-  document.getElementById('timer').innerHTML = `${currentDate} ${new Date().toLocaleTimeString('en-US')}`;
+  const currentDateTime = DateTime.now();
+  document.getElementById('timer').innerHTML = currentDateTime.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
 };
 
 export {
