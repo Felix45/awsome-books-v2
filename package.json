@@ -4,7 +4,7 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
   "scripts": {
-    "server": "live-server --port=1234 --entry-file=index.js"
+    "server": "live-server --port=1234 --entry-file=index.html"
   },
   "repository": {
     "type": "git",
