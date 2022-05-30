@@ -1,4 +1,4 @@
-import { DateTime } from './luxon.js';
+import { DateTime } from './luxon.min.js';
 
 const form = document.forms[0];
 const menuItems = document.querySelectorAll('.nav-link');

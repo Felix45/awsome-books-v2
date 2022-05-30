@@ -15,4 +15,3 @@ form.addEventListener('submit', (e) => {
   bookstore.addBook(form.elements.title.value, form.elements.author.value);
   form.reset();
 });
-
