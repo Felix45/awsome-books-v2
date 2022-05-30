@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://felix45.github.io/awsome-books/)
+[Live Demo Link](https://felix45.github.io/awsome-books-v2/)
 
 
 ## Getting Started
@@ -31,9 +31,9 @@ To get a local copy up and running follow these simple example steps.
 Clone the repository and change the directory to portfolio
 
 ``` 
-  $ git clone git@github.com:Felix45/awsome-books.git
+  $ git clone git@github.com:Felix45/awsome-books-v2.git
 
-  $ cd awsome-books
+  $ cd awsome-books-v2
 
 ```
 
@@ -58,15 +58,13 @@ Start the http application server
 | 👤 Name | Github | Twitter | LinkedIn |
 |------|--------|---------|----------|
 |Felix Ouma|[@Felix45](https://github.com/Felix45)|[@Felix_Atonoh](https://twitter.com/Felix_Atonoh)|[LinkedIn](https://www.linkedin.com/in/felix-ouma-639766b0/)|
-|Waleed Amjad|[@caasper](https://github.com/caasperr)|[@developerwaleed](https://twitter.com/developerwaleed)||
-
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Felix45/awsome-books/issues).
+Feel free to check the [issues page](https://github.com/Felix45/awsome-books-v2/issues).
 
 ## Show your support
 
