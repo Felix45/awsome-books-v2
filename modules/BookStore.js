@@ -14,8 +14,9 @@ class BookStore {
     this.objBooks.forEach((book, index) => {
       listOfBooks += `
     <tr>
+    <td>${index+1}</td>
     <td>${book.title} by ${book.author}</td>
-    <td class="d-flex justify-content-end"><button class="btn-delete bg-danger" id=${index}>Remove</button></td>
+    <td class="d-flex justify-content-end border-0"><button class="btn btn-delete fw-bold" id=${index}><i class="fa fa-trash"></i></button></td>
     </tr>
       `;
     });

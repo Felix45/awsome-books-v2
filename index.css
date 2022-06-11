@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+
 
 #submit {
   width: fit-content;
@@ -18,9 +20,17 @@ body {
   font: 30px 'Sacramento', cursive;
 }
 
+.cocogoose {
+  font: bold 17px 'COCOGOOSE', sans-serif;
+}
+
 .holder {
   backdrop-filter: blur(4.5px);
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-delete {
+  color: #ec5242;
 }
 
 footer {
