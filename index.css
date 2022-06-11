@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
 #submit {
   width: fit-content;
   padding: 0 15px;
@@ -10,6 +12,10 @@ body {
 
 .nav-pills .nav-link {
   border-radius: 0;
+}
+
+.cursive {
+  font: 30px 'Sacramento', cursive;
 }
 
 footer {
