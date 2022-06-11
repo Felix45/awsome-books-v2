@@ -72,7 +72,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to [Microverse](https://bit.ly/MicroverseTN) for giving me this project to work on
+- Hat tip to [Microverse](https://bit.ly/MicroverseTN) for giving me this project to work on and [Pexels](https://www.pexels.com/)
+for free stock photos used in this project
 
 
 ## 📝 License
