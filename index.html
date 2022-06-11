@@ -43,10 +43,15 @@
 
         <section id="add"  class="holder d-none rounded mt-5 mb-5 p-5 content-area">
             <h2 class="text-center cursive fw-bold py-4">Add New Book</h2>
+            <div class="alert alert-success d-none" role="alert">
+                Book added successfully !!!
+              </div>
             <form class="d-flex flex-column justify-content-center " action="./index.html">
-                <input type="text" placeholder="Title" name="title" id="title" required> <br>
-                <input type="text" placeholder="Author" name="author" id="author" required> <br>
-                <div class="d-flex justify-content-end"><button type="submit" id="submit"><i class="fa fa-plus"></i> Add</button></div>
+                <input type="text" class="rounded p-2" placeholder="Title" name="title" id="title" required> <br>
+                <input type="text" class="rounded p-2" placeholder="Author" name="author" id="author" required> <br>
+                <div class="d-flex justify-content-end">
+                    <button class="rounded" type="submit" id="submit"><i class="fa fa-plus"></i> Add</button>
+                </div>
             </form>
         </section>
 
@@ -66,7 +71,7 @@
     </main>
     <footer class="bg-light p-2">
         <div class="container px-0 p-3">
-            <p class="fw-bold text-primary cursive">Copyrights Reserved</p>
+            <p class="fw-bold text-primary cursive">&copy; Copyrights Reserved</p>
         </div>
     </footer>
 </body>
