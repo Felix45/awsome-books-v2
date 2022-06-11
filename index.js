@@ -16,6 +16,6 @@ form.addEventListener('submit', (e) => {
   e.target.parentNode.querySelector('.alert').classList.toggle('d-none');
   setTimeout(() => {
     e.target.parentNode.querySelector('.alert').classList.toggle('d-none');
-  }, 1000)
+  }, 1000);
   form.reset();
 });
