@@ -3,6 +3,11 @@
   padding: 0 15px;
 }
 
+body {
+  background: #fff url('./images/pexels-cottonbro-4861360.jpg') no-repeat;
+  background-size: cover;
+}
+
 footer {
   position: fixed;
   left: 0;
