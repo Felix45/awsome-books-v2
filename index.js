@@ -13,5 +13,9 @@ setInterval(displayDate, 1000);
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   bookstore.addBook(form.elements.title.value, form.elements.author.value);
+  e.target.parentNode.querySelector('.alert').classList.toggle('d-none');
+  setTimeout(() => {
+    e.target.parentNode.querySelector('.alert').classList.toggle('d-none');
+  }, 1000);
   form.reset();
 });
