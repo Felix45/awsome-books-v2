@@ -8,6 +8,10 @@ body {
   background-size: cover;
 }
 
+.nav-pills .nav-link {
+  border-radius: 0;
+}
+
 footer {
   position: fixed;
   left: 0;
