@@ -15,7 +15,7 @@ class BookStore {
       listOfBooks += `
     <tr>
     <td>${book.title} by ${book.author}</td>
-    <td class="d-flex justify-content-end"><button class="btn-delete" id=${index}>Remove</button></td>
+    <td class="d-flex justify-content-end"><button class="btn-delete bg-danger" id=${index}>Remove</button></td>
     </tr>
       `;
     });
